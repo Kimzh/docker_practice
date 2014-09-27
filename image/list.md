@@ -31,6 +31,7 @@ ubuntu           lucid    3db9c44f4520  4 weeks ago  183 MB
 ```
 $ sudo docker run -t -i ubuntu:14.04 /bin/bash
 $ sudo docker run -t -i ubuntu:12.04 /bin/bash
+
 ```
 上面的命令会从指定镜像启动一个容器，并提供用户控制台来交互。用户登录进入后可以看到系统内运行了一个bash进程。
 
